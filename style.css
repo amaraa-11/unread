@@ -1,63 +1,117 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: SF display, sans-serif;
 }
-header {
-  height: 80px;
 
-  background-color: blueviolet;
-  padding-left: 300px;
-  padding-right: 300px;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+.search-input {
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0)),
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
   background-size: 100%;
+  padding: 20px;
 }
-.hero-content {
-  width: 800px;
+.hero-contect {
+  width: 1440px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  justify-content: space-between;
-  color: white;
-  padding-top: 150px;
-  gap: 30px;
+  justify-content: center;
+
+  gap: 68px;
 }
-.hero-content div {
+.hero-contect div {
   width: 50%;
-  height: 300px;
+
+  color: aliceblue;
 }
 
-.left {
-  background-image: url("duusuld.jpg");
+.hero-contect h1 {
+  -webkit-text-stroke: white 1px;
+  color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.shine {
+  font-weight: 700;
+  font-size: larger;
+  color: blue;
+  animation: blink 2s linear infinite;
+}
+@keyframes blink {
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+}
+
+.toosuld {
+  background: url("duusuld.jpg");
+  background-size: cover;
   height: 446.4px;
-  width: 446.4px;
-  border-radius: 16px;
+  max-width: 446.4px;
   background-position: center;
+  border-radius: 16px;
   background-size: 160%;
-  transition: all 1s ease;
+  overflow: hidden;
+  transition: all 0.4s;
 }
-.left:hover {
-  background-size: 170%;
+.toosuld:hover {
+  background-size: 175%;
 }
-.right {
-  font-size: 20px;
+.toosuld-text {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: all 0.4s;
+  font-weight: 700;
+}
+.toosuld-text:hover {
+  opacity: 0.7;
 }
 .icons {
-  color: #ffffff;
+  width: 16px;
+  height: 15px;
+  opacity: 70%;
   display: flex;
-  justify-content: flex-end;
-  gap: 12px;
+  align-items: center;
+  gap: 13px;
+  color: white;
 }
-.p {
-  font-size: 20px;
-}
-.h1 {
-}
-.h2 {
-  color: #ffffff;
-  font-family: arial;
+
+footer {
+  background-color: red;
+
+  height: 750px;
 }

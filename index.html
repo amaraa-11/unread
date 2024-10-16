@@ -3,23 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unread Today</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
-
-    <title>Unread Today</title>
   </head>
   <body>
     <main>
       <section class="hero">
         <header>
-          <img src="zuraas.png" />
-          <img src="Link [uk-navbar-band].png" />
+          <div style="display: flex; justify-content: center">
+            <img style="width: 138px; height: 15px" src="unraed logo.png" />
+            <div style="margin-right: 20px"></div>
+            <div
+              style="background-color: white; width: 1px; height: 15px"
+            ></div>
+            <div style="margin-left: 20px"></div>
+            <div style="opacity: 30%">
+              <i style="color: grey" class="fa-solid fa-magnifying-glass"></i>
+              <input
+                class="search-input"
+                type="search"
+                placeholder="Хайлт хийх"
+              />
+            </div>
+          </div>
+          <div class="navbar">
+            <p style="color: grey; opacity: 50%">Дараагийн нийтлэл:</p>
+            <div style="margin-right: 15px"></div>
+            <p style="color: white; text-transform: uppercase">Мэдүүштэй</p>
+            <div style="margin-right: 15px"></div>
+            <p
+              style="
+                background-color: rgba(255, 255, 255, 0.403);
+                width: 142.68px;
+                height: 40px;
+                text-align: center;
+                align-content: center;
+                border-radius: 30px;
+                color: white;
+                font-size: small;
+                box-shadow: color(white);
+              "
+              class="dottoi-text"
+            >
+              Маргааш орно
+            </p>
+          </div>
           <div class="icons">
             <div><i class="fa-brands fa-square-facebook"></i></div>
             <div><i class="fa-brands fa-instagram"></i></div>
@@ -28,17 +60,21 @@
           </div>
         </header>
 
-        <div class="hero-content">
-          <div class="left"></div>
-          <div class="right">
-            <p class="p">ШИНЭ</p>
-            <h1 class="h1">МЭДҮҮШТЭЙ</h1>
-            <h2 class="h2">
-              Сониноос сорчилъё: тоо <br />юу? сүлд үү? /2024.10.14/
-            </h2>
+        <div class="hero-contect">
+          <div class="toosuld"></div>
+
+          <div>
+            <div style="margin-top: 55px"></div>
+            <p class="shine">Шинэ</p>
+            <div style="margin-bottom: 35px"></div>
+            <h1>Мэдүүштэй</h1>
+            <p class="toosuld-text">
+              Сониноос сорчилъё: Тоо юу? Сүлд үү? /2024.10.14/
+            </p>
           </div>
         </div>
       </section>
     </main>
+    <footer>footer</footer>
   </body>
 </html>

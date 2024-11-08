@@ -157,7 +157,7 @@ a {
   border: 1px solid grey;
   transition: all 0.3s;
 }
-.kanyezurag:hover {
+.kanyewest:hover {
   border: 1px solid white;
 }
 
@@ -196,19 +196,16 @@ a {
 .posteruud {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 35px;
+  background-image: 50%;
+  background-size: cover;
 }
 .poster1 {
-  width: 300px;
-  height: 420px;
+  width: 244px;
+  height: 360.36px;
   border-radius: 20px;
   /* overflow: hidden !important; */
   transition: 0.3s ease-in-out;
-  border-radius: 15px;
-  background-image: url(unread\ today.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .poster1:hover {
   transform: scale(1.05);
@@ -217,16 +214,11 @@ a {
   transition: 0.2s;
 }
 .poster2 {
-  width: 300px;
-  height: 420px;
+  width: 244px;
+  height: 360.36px;
   border-radius: 20px;
   /* overflow: hidden !important; */
   transition: 0.3s ease-in-out;
-  border-radius: 15px;
-  background-image: url(unread\ today.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .poster2:hover {
   transform: scale(1.05);
@@ -235,16 +227,11 @@ a {
   transition: 0.2s;
 }
 .poster3 {
-  width: 300px;
-  height: 420px;
+  width: 244px;
+  height: 360.36px;
   border-radius: 20px;
   /* overflow: hidden !important; */
   transition: 0.3s ease-in-out;
-  border-radius: 15px;
-  background-image: url(unread\ today.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .poster3:hover {
   transform: scale(1.05);
@@ -253,32 +240,24 @@ a {
   transition: 0.2s;
 }
 .poster4 {
+  width: 244px;
+  height: 360.36px;
   border-radius: 20px;
-  width: 300px;
-  height: 420px;
   /* overflow: hidden !important; */
   transition: 0.3s ease-in-out;
-  border-radius: 15px;
-  background-image: url(unread\ today.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .poster4:hover {
   transform: scale(1.05);
+
+  border-radius: 15px;
   transition: 0.2s;
 }
 .poster5 {
-  width: 300px;
-  height: 420px;
+  width: 244px;
+  height: 360.36px;
   border-radius: 20px;
   /* overflow: hidden !important; */
   transition: 0.3s ease-in-out;
-  border-radius: 15px;
-  background-image: url(unread\ today.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .poster5:hover {
   transform: scale(1.05);
@@ -286,6 +265,7 @@ a {
   border-radius: 15px;
   transition: 0.2s;
 }
+
 .card {
   background-color: white;
   height: 183px;
@@ -608,18 +588,15 @@ a {
 .footer {
   background-color: black;
   height: 750px;
-  margin-top: -50px;
-  width: 100vw;
-
   position: absolute;
-  display: flex;
   justify-content: center;
+  width: 100%;
 }
 .footer-container {
   width: 60vw;
-  height: 750px;
-
+  height: auto;
   display: flex;
+  margin: 0 auto;
 }
 .footer-unread {
   width: 138px;
@@ -631,6 +608,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 45%;
+
+  height: 70%;
 }
 .footer-card {
   background: url(btn-black.png);
@@ -716,7 +695,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 270px;
+  margin-right: 300px;
 }
 .footer-right-titles p {
   font-weight: 500;
@@ -742,7 +721,7 @@ a {
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 57.5%;
   margin-top: 40px;
   margin-bottom: 19px;
 }
@@ -791,71 +770,47 @@ a {
 .footer-grid-right a {
   transition: all 0.2s;
   opacity: 100%;
-  text-decoration: nones;
 }
 .footer-grid-right a:hover {
   transform: translateX(0.2rem);
+  color: #0078f6;
 }
 .footer-icons {
   display: flex;
-  justify-content: space-around;
-  width: 90%;
+  justify-content: space-between;
+  margin-top: 500px;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 600px;
 }
 .footer-icons i {
   font-size: 32px;
-  gap: 90px;
+  color: white;
+  opacity: 50%;
+  transition: all 0.2s;
 }
-.fa-square-facebook {
-  opacity: 20%;
-}
-.fa-square-facebook:hover {
+
+.footer-facebook i:hover {
   color: #1877f2;
   opacity: 100%;
-  transition: 0.3s;
 }
-.fa-instagram {
-  opacity: 20%;
-}
-.fa-instagram:hover {
-  color: #e4405f;
-  opacity: 100%;
-  transition: 0.3s;
-}
-.fa-twitter {
-  opacity: 20%;
-}
-.fa-twitter:hover {
+.footer-twitter i:hover {
   color: #1da1f2;
   opacity: 100%;
-  transition: 0.3s;
 }
-.fa-linkedin-in {
-  opacity: 20%;
-}
-.fa-linkedin-in:hover {
+.footer-instagram i:hover {
+  color: #e4405f;
   opacity: 100%;
-  transition: 0.3s;
+}
+.footer-linkedin i:hover {
   color: #0a66c2;
-}
-a {
-  text-decoration: none;
-}
-.fa-youtube {
-  opacity: 20%;
-}
-.fa-youtube:hover {
   opacity: 100%;
-  transition: 0.3s;
+}
+.footer-youtube i:hover {
   color: #cd201f;
-}
-.fa-soundcloud {
-  opacity: 20%;
-}
-.fa-soundcloud:hover {
   opacity: 100%;
-  transition: 0.3s;
+}
+.footer-soundcloud i:hover {
   color: #ff3300;
+  opacity: 100%;
 }

@@ -150,25 +150,26 @@ a {
   transition: 0.3s;
   color: #0a66c2;
 }
-.kanyezurag {
+.profile-img {
   height: 36px;
   width: 36px;
+
   border-radius: 50px;
   border: 1px solid grey;
   transition: all 0.3s;
 }
-.kanyewest:hover {
-  border: 1px solid white;
-}
 
-.kanyewest {
+
+.card-author {
   font-weight: 700;
   font-size: 12px;
   opacity: 50%;
   transition: all 0.2s;
+
 }
-.kanyewest:hover {
+.card-author:hover {
   opacity: 100%;
+
 }
 
 .bogloos {
@@ -204,7 +205,7 @@ a {
   width: 244px;
   height: 360.36px;
   border-radius: 20px;
-  /* overflow: hidden !important; */
+ 
   transition: 0.3s ease-in-out;
 }
 .poster1:hover {
@@ -217,7 +218,7 @@ a {
   width: 244px;
   height: 360.36px;
   border-radius: 20px;
-  /* overflow: hidden !important; */
+
   transition: 0.3s ease-in-out;
 }
 .poster2:hover {
@@ -230,7 +231,7 @@ a {
   width: 244px;
   height: 360.36px;
   border-radius: 20px;
-  /* overflow: hidden !important; */
+ 
   transition: 0.3s ease-in-out;
 }
 .poster3:hover {
@@ -243,7 +244,7 @@ a {
   width: 244px;
   height: 360.36px;
   border-radius: 20px;
-  /* overflow: hidden !important; */
+ 
   transition: 0.3s ease-in-out;
 }
 .poster4:hover {
@@ -256,7 +257,7 @@ a {
   width: 244px;
   height: 360.36px;
   border-radius: 20px;
-  /* overflow: hidden !important; */
+ 
   transition: 0.3s ease-in-out;
 }
 .poster5:hover {
@@ -333,7 +334,7 @@ a {
   column-gap: 12px;
 }
 .grid-item-1 {
-  background-color: orange;
+background-image: url("grid-image1.png");
   grid-row: 1 / 5;
   grid-column: 1 / 7;
   border-radius: 15px;
@@ -349,7 +350,7 @@ a {
 .grid-item-2 {
   grid-row: 1 / 4;
   grid-column: 7 / 10;
-  background-color: orange;
+  background-image: url("grid-image2.png");
   border-radius: 15px;
   transition: all 0.3s;
   display: flex;
@@ -361,7 +362,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-3 {
-  background-color: orange;
+  background-image: url("grid-img3.png");
   grid-row: 1 / 4;
   grid-column: 10 / 13;
   border-radius: 15px;
@@ -375,7 +376,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-4 {
-  background-color: orange;
+  background-image: url("grid-img4.png");
   transition: all 0.3s;
   grid-column: 1 / 4;
   grid-row: 8 / 5;
@@ -389,7 +390,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-5 {
-  background-color: orange;
+ background-image: url("grid-img5.png");
   transition: all 0.3s;
   grid-column: 4 / 7;
   grid-row: 8 / 5;
@@ -403,7 +404,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-6 {
-  background-color: orange;
+  background-image: url("grid-img6.png");
   transition: all 0.2s;
   grid-column: 7 / 10;
   grid-row: 4 / 8;
@@ -417,7 +418,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-7 {
-  background-color: orange;
+  background-image: url("grid-img7.png");
   grid-column: 10 / 13;
   grid-row: 4 / 8;
   transition: all 0.2s;
@@ -447,10 +448,12 @@ a {
   font-weight: 400;
   font-size: 11.6px;
   color: grey;
+  margin-left: 20px;
 }
 .grid-text {
   font-size: 15.8px;
   font-weight: 700;
+  margin-left: 20px;
 }
 
 .grid-container-2 {
@@ -465,7 +468,7 @@ a {
   column-gap: 12px;
 }
 .grid-item-21 {
-  background-color: purple;
+  background-image: url("grid-img8.png");
   grid-row: 1 / 5;
   grid-column: 1 / 7;
   border-radius: 15px;
@@ -481,7 +484,9 @@ a {
 .grid-item-22 {
   grid-row: 1 / 4;
   grid-column: 7 / 10;
-  background-color: purple;
+  background-image: url(
+    "grid-img9.png"
+  );
   border-radius: 15px;
   transition: all 0.3s;
   display: flex;
@@ -493,7 +498,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-23 {
-  background-color: purple;
+  background-image: url("grid-img10.png");
   grid-row: 1 / 4;
   grid-column: 10 / 13;
   border-radius: 15px;
@@ -507,7 +512,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-24 {
-  background-color: purple;
+  background-image: url("grid-img11.png");
   transition: all 0.3s;
   grid-column: 1 / 4;
   grid-row: 8 / 5;
@@ -521,7 +526,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-25 {
-  background-color: purple;
+  background-image: url("grid-img12.png");
   transition: all 0.3s;
   grid-column: 4 / 7;
   grid-row: 8 / 5;
@@ -535,7 +540,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-26 {
-  background-color: purple;
+  background-image: url("grid-img13.png");
   transition: all 0.2s;
   grid-column: 7 / 10;
   grid-row: 4 / 8;
@@ -549,7 +554,7 @@ a {
   transform: translateY(-0.2rem);
 }
 .grid-item-27 {
-  background-color: purple;
+  background-image: url("grid-img14.png");
   grid-column: 10 / 13;
   grid-row: 4 / 8;
   transition: all 0.2s;
@@ -579,10 +584,12 @@ a {
   font-weight: 400;
   font-size: 11.6px;
   color: grey;
+  margin-left: 20px;
 }
 .grid-text-2 {
   font-size: 15.8px;
   font-weight: 700;
+  margin-left:20px;
 }
 
 .footer {

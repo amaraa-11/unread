@@ -113,6 +113,9 @@ input {
   gap: 30px;
   justify-content: space-between;
 }
+.facebook {
+opacity: 70%;
+}
 a {
   width: 16px;
   height: 15px;
@@ -785,7 +788,7 @@ background-image: url("grid-image1.png");
 .footer-icons {
   display: flex;
   justify-content: space-between;
-  margin-top: 500px;
+  margin-top: 600px;
   width: 60vw;
   margin-left: auto;
   margin-right: auto;
@@ -794,30 +797,33 @@ background-image: url("grid-image1.png");
   font-size: 32px;
   color: white;
   opacity: 50%;
-  transition: all 0.2s;
+}
+.footer-icons a {
+    text-decoration: none;
 }
 
-.footer-facebook i:hover {
+.fa-square-facebook:hover {
   color: #1877f2;
-  opacity: 100%;
+
+   transition: 0.2s;
 }
-.footer-twitter i:hover {
-  color: #1da1f2;
-  opacity: 100%;
+.fa-instagram:hover {
+  color: #e4405f;;
+  transition: 0.2s;
 }
-.footer-instagram i:hover {
-  color: #e4405f;
-  opacity: 100%;
+.fa-twitter:hover {
+  color:#1da1f2;
+ transition: 0.2s;
 }
-.footer-linkedin i:hover {
+.fa-linkedin-in:hover {
   color: #0a66c2;
-  opacity: 100%;
+   transition: 0.2s;
 }
-.footer-youtube i:hover {
+.fa-youtube:hover {
   color: #cd201f;
-  opacity: 100%;
+  transition: 0.2s;
 }
-.footer-soundcloud i:hover {
+.fa-soundcloud:hover {
   color: #ff3300;
-  opacity: 100%;
+   transition: 0.2s;
 }
